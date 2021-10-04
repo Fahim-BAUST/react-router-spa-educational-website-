@@ -1,3 +1,11 @@
+## WELCOME TO MY PROJECT
+# [SMART LEARN](https://sleepy-meninsky-ec069a.netlify.app/)
+### PROS
+*  focus on simplicity
+*  practice easy learning.
+*  tutorials start from basic level
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
