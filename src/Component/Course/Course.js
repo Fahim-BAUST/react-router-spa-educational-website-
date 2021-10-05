@@ -24,7 +24,7 @@ const Course = (props) => {
                     <Rating name="read-only" value={rating} precision={0.5} readOnly />
                 </CardContent>
 
-                <Button sx={{ marginLeft: 2, marginBottom: 2 }} variant="contained" color="success" size="small">Enroll Now</Button>
+                <Button sx={{ marginLeft: 2, marginBottom: 2 }} variant="contained" color="success" size="small"><i style={{ color: "goldenrod" }} class="fas fa-shopping-cart"></i> Enroll Now  </Button>
 
             </Card>
         </div>

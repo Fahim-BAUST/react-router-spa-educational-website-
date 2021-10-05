@@ -29,7 +29,7 @@ const Footer = () => {
                                 <TextField id="standard-basic" label="Phone" variant="standard" />
 
                             </div>
-                            <Button sx={{ marginLeft: 2, marginBottom: 2, mt: 10 }} variant="contained" color="success" size="small">Submit</Button>
+                            <Button sx={{ marginLeft: 2, marginBottom: 2, mt: 10, borderRadius: 20 }} variant="contained" color="error" size="small">Submit <i className="fas fa-check-circle"></i></Button>
 
 
                         </div>

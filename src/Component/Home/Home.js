@@ -31,7 +31,7 @@ const Home = () => {
                                 <Grid container spacing={{ xs: 2, md: 3 }} columns={{ xs: 4, sm: 8, md: 12 }}>
 
                                     <Grid item xs={12} sm={4} md={6} sx={{ textAlign: "center" }} >
-                                        <Typography sx={{ pt: 6, mb: 1 }} variant="h2">{courses[0]?.name}</Typography>
+                                        <Typography sx={{ pt: 6, mb: 1 }} variant="h2">{courses[0]?.name} <i className="fab fa-html5"></i></Typography>
                                         <Typography sx={{ pt: 1, mb: 2 }} variant="h5">{courses[0]?.shortDescription}</Typography>
                                         <Button sx={{ borderRadius: 20 }} variant="contained" color="error">Learn More</Button>
                                     </Grid>
@@ -58,7 +58,7 @@ const Home = () => {
                                 <Grid container spacing={{ xs: 2, md: 3 }} columns={{ xs: 4, sm: 8, md: 12 }}>
 
                                     <Grid item xs={12} sm={4} md={6} sx={{ textAlign: "center" }} >
-                                        <Typography sx={{ pt: 6, mb: 1, color: "white" }} variant="h2">{courses[1]?.name}</Typography>
+                                        <Typography sx={{ pt: 6, mb: 1, color: "white" }} variant="h2">{courses[1]?.name} <i className="fab fa-css3-alt"></i></Typography>
                                         <Typography sx={{ pt: 1, mb: 2, color: "white" }} variant="h5">{courses[1]?.shortDescription}</Typography>
                                         <Button sx={{ borderRadius: 20 }} variant="contained" color="error">Learn More</Button>
                                     </Grid>
@@ -83,7 +83,7 @@ const Home = () => {
                                 <Grid container spacing={{ xs: 2, md: 3 }} columns={{ xs: 4, sm: 8, md: 12 }}>
 
                                     <Grid item xs={12} sm={4} md={6} sx={{ textAlign: "center" }} >
-                                        <Typography sx={{ pt: 6, mb: 1 }} variant="h2">{courses[2]?.name}</Typography>
+                                        <Typography sx={{ pt: 6, mb: 1 }} variant="h2">{courses[2]?.name} <i className="fab fa-js-square"></i></Typography>
                                         <Typography sx={{ pt: 1, mb: 2 }} variant="h5">{courses[2]?.shortDescription}</Typography>
                                         <Button sx={{ borderRadius: 20 }} variant="contained" color="error">Learn More</Button>
                                     </Grid>
@@ -108,7 +108,7 @@ const Home = () => {
                                 <Grid container spacing={{ xs: 2, md: 3 }} columns={{ xs: 4, sm: 8, md: 12 }}>
 
                                     <Grid item xs={12} sm={4} md={6} sx={{ textAlign: "center" }} >
-                                        <Typography sx={{ pt: 6, mb: 1, color: "white" }} variant="h2">{courses[3]?.name}</Typography>
+                                        <Typography sx={{ pt: 6, mb: 1, color: "white" }} variant="h2">{courses[3]?.name} <i className="fab fa-python"></i></Typography>
                                         <Typography sx={{ pt: 1, mb: 2, color: "white" }} variant="h5">{courses[3]?.shortDescription}</Typography>
                                         <Button sx={{ borderRadius: 20 }} variant="contained" color="error">Learn More</Button>
                                     </Grid>

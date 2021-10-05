@@ -66,12 +66,13 @@ const Charts = () => {
     return (
 
 
-        <div>
+        <div >
 
 
             <RadarChart
-                cx={600}
-                cy={200}
+                style={{ position: "absolute", fontWeight: "500" }}
+                cx={210}
+                cy={210}
                 outerRadius={140}
 
                 width={800}
@@ -80,7 +81,7 @@ const Charts = () => {
                 data={data}
             >
                 <PolarGrid />
-                <PolarAngleAxis dataKey="name" />
+                <PolarAngleAxis stroke="#00203FFF" dataKey="name" />
                 <PolarRadiusAxis />
                 <Radar
                     name="Mike"
@@ -88,9 +89,15 @@ const Charts = () => {
                     stroke="#8884d8"
                     fill="#8884d8"
                     fillOpacity={0.6}
+
+
                 />
+
             </RadarChart>
-            <Typography sx={{ textAlign: "center", fontWeight: "bold" }} variant="h5">Popularity</Typography>
+            <Typography sx={{ fontWeight: "bold", marginLeft: 17, color: "#00203FFF" }} variant="h5">Popularity <i style={{ color: "#BC0101 " }} className="fas fa-fire"></i></Typography>
+
+            <img style={{ width: 500, height: 350, float: "right", marginBottom: 20, borderRadius: 100 }} src="https://allhdwallpapers.com/wp-content/uploads/2015/07/Programming-4.jpg" alt="" />
+
         </div>
 
 
