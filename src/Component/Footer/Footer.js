@@ -15,7 +15,8 @@ const Footer = () => {
 
                     <Grid sx={{ ml: 5 }} item xs={12} sm={8} md={6} >
                         <div style={{ marginTop: 25 }}>
-                            <span style={{ fontWeight: 500, color: "tomato", paddingBottom: "15px" }}>CONTACT US</span><br />  <br /> <FontAwesomeIcon icon={faPhone} /> +8801********* <br /> <FontAwesomeIcon icon={faVoicemail} /> learn50@gmail.com
+                            <span style={{ fontWeight: 500, color: "tomato", paddingBottom: "15px" }}>CONTACT US</span><br />  <br /> <FontAwesomeIcon icon={faPhone} /> +8801********* <br /> <FontAwesomeIcon icon={faVoicemail} /> smartlearn50@gmail.com
+                            <br />  <i className="fab fa-instagram-square" style={{ color: "red" }}></i> - <i style={{ color: "blue" }} className="fab fa-facebook"></i> - <i style={{ color: "#3498DB " }} class="fab fa-twitter-square"></i> - <i style={{ color: "#C0392B  " }} class="fab fa-youtube"></i>
 
                         </div>
 
