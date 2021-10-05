@@ -1,4 +1,4 @@
-import { Grid, Typography } from '@mui/material';
+import { Grid, LinearProgress, Typography } from '@mui/material';
 import { Box } from '@mui/system';
 import React from 'react';
 import { useEffect } from 'react';
@@ -20,7 +20,9 @@ const Services = () => {
 
             <Box sx={{ flexGrow: 1, m: 5 }}>
                 <Grid container spacing={{ xs: 2, md: 3 }} columns={{ xs: 4, sm: 8, md: 12 }}>
-                    {
+                    {/* using spinner */}
+                    {service.length === 0 ? <Box sx={{ width: '100%' }}><LinearProgress color="secondary" /></Box>
+                        :
                         service.map(sub => <Grid item xs={12} sm={4} md={4} >
                             <Course course={sub} key={sub.id}></Course>
                         </Grid>)

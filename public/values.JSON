@@ -71,5 +71,32 @@
     "description": "jQuery is a JavaScript Library.jQuery greatly simplifies JavaScript programming.jQuery is easy to learn..",
     "shortDescription": "A JS library for developing web pages.",
     "rating": 4.5
+  },
+  {
+    "id": 9,
+    "name": "C++",
+    "codeImg": "./images/c++.png",
+    "price": 45,
+    "description": "C++ is an object-oriented programming language which gives a clear structure to programs and allows code to be reused, lowering development costs",
+    "shortDescription": "C++ is a popular programming language",
+    "rating": 5
+  },
+  {
+    "id": 10,
+    "name": "Node.js",
+    "codeImg": "./images/ns.png",
+    "price": 0,
+    "description": "Node.js runs single-threaded, non-blocking, asynchronously programming, which is very memory efficient",
+    "shortDescription": "Node.js allows you to run JavaScript on the server",
+    "rating": 4.5
+  },
+  {
+    "id": 11,
+    "name": "NumPy",
+    "codeImg": "./images/np.png",
+    "price": 0,
+    "description": "NumPy is a Python library used for working with arrays.It also has functions for working in domain of linear algebra, fourier transform, and matrices",
+    "shortDescription": "NumPy is a Python library",
+    "rating": 5
   }
 ]

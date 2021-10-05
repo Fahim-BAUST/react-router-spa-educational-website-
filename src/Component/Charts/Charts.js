@@ -13,41 +13,52 @@ const Charts = () => {
             .then(data => setCourses(data));
     }, []);
 
-
+    /* ------------
+    Showing the popularity of some programming languages with react recharts 
+    ------------ */
     const data = [
         {
             name: courses[0]?.name,
-            A: 120
+            A: 150 // A=popularity
         },
         {
             name: courses[1]?.name,
-            A: 98
+            A: 140
         },
         {
             name: courses[2]?.name,
-            A: 86
+            A: 150
         },
         {
             name: courses[3]?.name,
-            A: 99
+            A: 130
         },
         {
             name: courses[4]?.name,
-            A: 85
+            A: 110
         },
         {
             name: courses[5]?.name,
-            A: 110
+            A: 135
 
         },
         {
             name: courses[6]?.name,
-            A: 120
+            A: 160
 
         },
         {
             name: courses[7]?.name,
-            A: 90
+            A: 120
+
+        }, {
+            name: courses[8]?.name,
+            A: 140
+
+        },
+        {
+            name: courses[9]?.name,
+            A: 130
 
         }
     ];

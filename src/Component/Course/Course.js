@@ -21,7 +21,7 @@ const Course = (props) => {
                     <Typography variant="body2" color="text.secondary">
                         {description}
                     </Typography>
-                    <Rating name="read-only" value={rating} readOnly />
+                    <Rating name="read-only" value={rating} precision={0.5} readOnly />
                 </CardContent>
 
                 <Button sx={{ marginLeft: 2, marginBottom: 2 }} variant="contained" color="success" size="small">Enroll Now</Button>
