@@ -4,7 +4,7 @@ import { NavLink } from 'react-router-dom';
 const Header = () => {
     return (
 
-        <nav className="navbar navbar-expand-lg navbar-light " style={{ backgroundColor: "#00203FFF" }}>
+        <nav className="navbar navbar-expand-lg navbar-light sticky-top" style={{ backgroundColor: "#00203FFF" }}>
             <div className="container-fluid">
 
                 <img className="navbar-brand" style={{ float: "left", width: "100px", marginLeft: 20 }} src="https://cdn.steemitimages.com/DQmWspTV26MzQTBkR1FNr8j7HfUYcAaUBupLFGsYwG9VSHr/SMART-removebg-preview.png" alt="" />

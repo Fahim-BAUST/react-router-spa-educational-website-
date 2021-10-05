@@ -26,7 +26,7 @@ const Home = () => {
                 <Grid container spacing={{ xs: 2, md: 3 }} columns={{ xs: 4, sm: 8, md: 12 }}>
 
                     <Grid item xs={12} sm={12} md={12}>
-                        <div style={{ backgroundColor: "cyan", paddingBottom: 20 }}>
+                        <div style={{ backgroundColor: "cyan", paddingBottom: 25, marginBottom: 20, marginTop: 15 }}>
                             <Box sx={{ flexGrow: 1 }}>
                                 <Grid container spacing={{ xs: 2, md: 3 }} columns={{ xs: 4, sm: 8, md: 12 }}>
 
@@ -36,7 +36,7 @@ const Home = () => {
                                         <Button sx={{ borderRadius: 20 }} variant="contained" color="error">Learn More</Button>
                                     </Grid>
                                     <Grid item xs={12} sm={4} md={6} sx={{ textAlign: "center" }} >
-                                        <div style={{ backgroundColor: "white" }}>
+                                        <div style={{ backgroundColor: "white", paddingBottom: 20 }}>
                                             <Typography variant="h4">{courses[0]?.name} Example:</Typography>
                                             <img src={courses[0]?.codeImg} alt="" />
 
@@ -53,7 +53,7 @@ const Home = () => {
                     </Grid>
 
                     <Grid item xs={12} sm={12} md={12} sx={{ mt: 1 }}>
-                        <div style={{ backgroundColor: "#34495E", paddingBottom: 20 }}>
+                        <div style={{ backgroundColor: "#34495E", paddingBottom: 25, marginBottom: 20 }}>
                             <Box sx={{ flexGrow: 1 }}>
                                 <Grid container spacing={{ xs: 2, md: 3 }} columns={{ xs: 4, sm: 8, md: 12 }}>
 
@@ -63,7 +63,7 @@ const Home = () => {
                                         <Button sx={{ borderRadius: 20 }} variant="contained" color="error">Learn More</Button>
                                     </Grid>
                                     <Grid item xs={12} sm={4} md={6} sx={{ textAlign: "center" }} >
-                                        <div style={{ backgroundColor: "white" }}>
+                                        <div style={{ backgroundColor: "white", paddingBottom: 20 }}>
                                             <Typography variant="h4">{courses[1]?.name} Example:</Typography>
                                             <img src={courses[1]?.codeImg} alt="" />
 
@@ -78,7 +78,7 @@ const Home = () => {
 
                     </Grid>
                     <Grid item xs={12} sm={12} md={12} sx={{ mt: 1 }}>
-                        <div style={{ backgroundColor: "#F9E79F", paddingBottom: 20 }}>
+                        <div style={{ backgroundColor: "#F9E79F", paddingBottom: 25, marginBottom: 20 }}>
                             <Box sx={{ flexGrow: 1 }}>
                                 <Grid container spacing={{ xs: 2, md: 3 }} columns={{ xs: 4, sm: 8, md: 12 }}>
 
@@ -88,7 +88,7 @@ const Home = () => {
                                         <Button sx={{ borderRadius: 20 }} variant="contained" color="error">Learn More</Button>
                                     </Grid>
                                     <Grid item xs={12} sm={4} md={6} sx={{ textAlign: "center" }} >
-                                        <div style={{ backgroundColor: "white" }}>
+                                        <div style={{ backgroundColor: "white", paddingBottom: 20 }}>
                                             <Typography variant="h4">{courses[2]?.name} Example:</Typography>
                                             <img src={courses[1]?.codeImg} alt="" />
 
@@ -103,7 +103,7 @@ const Home = () => {
 
                     </Grid>
                     <Grid item xs={12} sm={12} md={12} sx={{ mt: 1 }}>
-                        <div style={{ backgroundColor: "#34495E", paddingBottom: 20 }}>
+                        <div style={{ backgroundColor: "#34495E", paddingBottom: 25, marginBottom: 20 }}>
                             <Box sx={{ flexGrow: 1 }}>
                                 <Grid container spacing={{ xs: 2, md: 3 }} columns={{ xs: 4, sm: 8, md: 12 }}>
 
@@ -113,7 +113,7 @@ const Home = () => {
                                         <Button sx={{ borderRadius: 20 }} variant="contained" color="error">Learn More</Button>
                                     </Grid>
                                     <Grid item xs={12} sm={4} md={6} sx={{ textAlign: "center" }} >
-                                        <div style={{ backgroundColor: "white" }}>
+                                        <div style={{ backgroundColor: "white", paddingBottom: 20 }}>
                                             <Typography variant="h4">{courses[3]?.name} Example:</Typography>
                                             <img src={courses[1]?.codeImg} alt="" />
 

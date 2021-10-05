@@ -9,8 +9,8 @@ const Footer = () => {
 
 
     return (
-        <div>
-            <Box sx={{ flexGrow: 1, pt: 2, mb: 1, borderTop: "2px solid black" }}>
+        <div >
+            <Box sx={{ flexGrow: 1, pt: 2, mb: 2, borderTop: "2px solid black" }}>
                 <Grid container spacing={{ xs: 2, md: 3 }} columns={{ xs: 4, sm: 8, md: 12 }}>
 
                     <Grid sx={{ ml: 5 }} item xs={12} sm={8} md={6} >
