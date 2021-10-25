@@ -8,7 +8,7 @@ import Course from '../Course/Course';
 const Free = () => {
     const [fservice, setfService] = useState([]);
     useEffect(() => {
-        fetch('./values.JSON')
+        fetch('https://raw.githubusercontent.com/Fahim-BAUST/json-files/main/values.JSON')
             .then(res => res.json())
             .then(data => setfService(data))
     }, [])
